@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -classpath ./maestro-2.3.0-jar-with-dependencies.jar:./faultinject-1.0.0-SNAPSHOT.jar org.intocps.maestro.Main $@
