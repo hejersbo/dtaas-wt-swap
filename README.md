@@ -13,3 +13,9 @@ cd <WORKSPACE>/digital_twins/water_tank_swap
 ./post-process.sh
 ```
 The `post-process.sh` runs an experiment specific python plot of outputs. Plot results are in folder `post`.
+
+## Prerequisites:
+If not already installed on the DTaaS platform, these python packages are needed for post processing:
+```
+pip install pandas matplotlib
+```
