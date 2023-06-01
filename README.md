@@ -5,6 +5,15 @@ This repository contains a water-tank model swap experiment for DTaaS. The exper
 ```
 git clone git@github.com:hejersbo/dtaas-wt-swap.git <WORKSPACE>
 ```
+or if <WORKSPACE> folder structure already exists and is non-empty:
+```
+cd <WORKSPACE>
+git init
+git remote add origin <this-repo-url>
+git pull
+git checkout main -f
+git branch --set-upstream-to origin/master
+```
 
 ## Run in DTaaS workspace:
 ```
